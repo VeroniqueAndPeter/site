@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rederecting</title>
+        <style>
+            body {
+                background-color: rgb(39, 39, 39);
+            }
+
+            p {
+                color: white;
+            }
+            #redirect-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                font-size: 36px;
+                animation: fadein 2s;
+            }
+
+            @keyframes fadein {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="redirect-container">
+            <p>You will be redirected in <span id="countdown">5</span> seconds...</p>
+          </div>
+          <script>
+// Set the number of seconds before redirect
+var seconds = 5;
+
+// Update the countdown display
+document.getElementById("countdown").innerHTML = seconds;
+
+// Decrement the countdown and redirect the user after the specified time
+setInterval(function() {
+  seconds--;
+  document.getElementById("countdown").innerHTML = seconds;
+  if (seconds <= 0) {
+    window.location.href = "https://thewaytoafreedomlifestyle.com/about-us";
+  }
+}, 1000);
+          </script>
+    </body>
+</html>
