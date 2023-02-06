@@ -95,6 +95,7 @@ html {
     height: 50%;
 }
 
+
 .caption {
     position: absolute;
     left: 0;
@@ -111,6 +112,17 @@ html {
     font-size: 25px;
     letter-spacing: 6px;
 }
+
+@media only screen and (max-width: 767px) {
+    .caption span.border{
+      font-size: 14px;
+    }
+    .header a.logo {
+        font-size: 20px;
+    }
+}
+
+  
 
 h3 {
     letter-spacing: 5px;
@@ -260,6 +272,13 @@ footer .call-to-action-footer h3 {
         flex-direction: column;
     }
 }
+
+@media only screen and device-width < 768px {
+    .container {
+      width: 100%;
+      margin: 0;
+    }
+  }
 
 /*CARD*/
 
