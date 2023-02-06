@@ -363,12 +363,11 @@ footer .call-to-action-footer h3 {
   }
   
   .closebtn:hover {
-    color: black;
+    color: rgb(75, 75, 75);
   }
   
   #sticky-header {
     position: fixed;
-    display: none;
     top: 10%;
     left: 0;
     width: 100%;
@@ -377,3 +376,27 @@ footer .call-to-action-footer h3 {
     z-index: 10;
 
   }
+
+  ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    border: 1px solid #dddddd00;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f600;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    position: relative;
+  }
+  
+  .closebtn {
+    cursor: pointer;
+  }
+  
