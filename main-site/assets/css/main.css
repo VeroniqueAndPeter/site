@@ -106,7 +106,6 @@ html {
 }
 
 .caption span.border {
-    background-color: rgba(217, 217, 217, 0.54);
     color: rgb(36, 36, 36);
     padding: 9px;
     font-size: 25px;
@@ -116,6 +115,7 @@ html {
 @media only screen and (max-width: 767px) {
     .caption span.border{
       font-size: 14px;
+      font-weight: bold;
     }
     .header a.logo {
         font-size: 20px;
