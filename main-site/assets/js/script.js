@@ -28,17 +28,16 @@ $(document).ready(function() {
   }
 });
   
-// get the current URL
-var currentURL = window.location.href;
+document.addEventListener("DOMContentLoaded", function() {
+  let url = window.location.href;
+  let subDiv = document.getElementById("WarningAlert");
 
-// check if the URL ends with "/?sub=new"
-if (currentURL.endsWith("/?sub=old")) {
-  // show the div element
-  document.getElementById("WarningAlert").style.display = "block";
-
-  // update the URL without reloading the page
-  history.pushState({}, "", currentURL.replace("/?sub=old", ""));
-}
+  if (url.endsWith("/?sub=new")) {
+    subDiv.style.display = "block";
+  } else {
+    subDiv.style.display = "none";
+  }
+});
 
 
 /* Close */
