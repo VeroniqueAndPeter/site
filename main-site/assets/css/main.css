@@ -4,6 +4,7 @@
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    z-index: 1;
 }
 
 
@@ -36,6 +37,10 @@
     color: black;
 }
 
+.header a.se {
+    background-color: dodgerblue;
+    color: white;
+}
 
 /* Style the active/current link*/
 
@@ -188,7 +193,7 @@ input[type="submit"] {
 /* footer */
 
 footer {
-    z-index: 1;
+    z-index: 2;
     background-color: rgb(18, 18, 18);
     color: white;
     padding: 16px 72px;
@@ -337,6 +342,14 @@ footer .call-to-action-footer h3 {
 }
 
 /* Alert */
+
+@media screen and (max-width: 600px) {
+    .alert {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 .alert {
     padding: 20px;
     background-color: #f44336;
