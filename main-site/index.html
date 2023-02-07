@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-ZUG9qVARCmPLcjg/JofcLWKLrUwW6UcjLNKuDojc5E5Ju5e5I5Q5C5njAKL/lLd" crossorigin="anonymous"></script>
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -21,13 +22,13 @@
     <div class="list-alerts" id="sticky-header" style="display: block;">
         <ul>
             <li>
-                <div class="alert success">
+                <div class="alert success" id="SuccessAlert">
                     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
                     <strong>Thanks!</strong> You are now subscibed to our news letter
                 </div>
             </li>
             <li>
-                <div class="alert warning">
+                <div class="alert warning" id="WarningAlert">
                     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
                     <strong>Thanks!</strong> It seems like you are already subscribed to our Newsletter.
                 </div>
