@@ -40,6 +40,18 @@ $(document).ready(function () {
   }
 });
 
+$(document).ready(function () {
+  let sub = window.location.search.substring(1);
+  if (sub === 'sub=old') {
+    $('#WarningAlert').show();
+    $('html, body').animate({
+      scrollTop: $('#WarningAlert').offset().top
+    }, 0);
+  } else {
+    $('#WarningAlert').hide();
+  }
+});
+
 /* Close */
 
 var closebtns = document.getElementsByClassName("closebtn");
