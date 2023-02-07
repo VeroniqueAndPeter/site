@@ -28,6 +28,17 @@ $(document).ready(function() {
   }
 });
   
+$(document).ready(function () {
+  let sub = window.location.search.substring(1);
+  if (sub === 'sub=new') {
+    $('#SuccessAlert').show();
+    $('html, body').animate({
+      scrollTop: $('#SuccessAlert').offset().top
+    }, 0);
+  } else {
+    $('#SuccessAlert').hide();
+  }
+});
 
 /* Close */
 
