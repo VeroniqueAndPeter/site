@@ -9,21 +9,32 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-/*let toggleBtn = document.getElementById("toggleBtn");
-
-toggleBtn.addEventListener("click", function() {
-  if (targetDiv.style.display === "none") {
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("/?sub=new")) {
+    $("#SuccessAlert").show();
   } else {
+    $("#SuccessAlert").hide();
   }
-});*/
+});
 
-let targetDiv = document.getElementById("sticky-header");
-
-if (window.location.search.indexOf("?sub=old") !== -1) {
-    targetDiv.style.display = "block";
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("/?sub=new")) {
+    $("#WarningAlert").show();
+  } else {
+    $("#WarningAlert").hide();
   }
-
-  if (window.location.search.indexOf("?sub=new") !== -1) {
-    targetDiv.style.display = "block";
-  }
+});
   
+
+/* Close */
+
+var closebtns = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
