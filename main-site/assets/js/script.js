@@ -1,3 +1,4 @@
+
 var close = document.getElementsByClassName("closebtn");
 var i;
 
@@ -11,7 +12,7 @@ for (i = 0; i < close.length; i++) {
 
 $(document).ready(function() {
   var url = window.location.href;
-  if (url.endsWith("/?sub=new")) {
+  if (url.endsWith("?sub=new")) {
     $("#SuccessAlert").show();
   } else {
     $("#SuccessAlert").hide();
@@ -20,7 +21,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   var url = window.location.href;
-  if (url.endsWith("/?sub=new")) {
+  if (url.endsWith("?sub=new")) {
     $("#WarningAlert").show();
   } else {
     $("#WarningAlert").hide();
