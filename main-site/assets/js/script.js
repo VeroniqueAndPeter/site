@@ -28,29 +28,18 @@ $(document).ready(function() {
   }
 });
   
-$(document).ready(function () {
-  let sub = window.location.search.substring(1);
-  if (sub === 'sub=new') {
-    $('#SuccessAlert').show();
-    $('html, body').animate({
-      scrollTop: $('#SuccessAlert').offset().top
-    }, 0);
-  } else {
-    $('#SuccessAlert').hide();
-  }
-});
+// get the current URL
+var currentURL = window.location.href;
 
-$(document).ready(function () {
-  let sub = window.location.search.substring(1);
-  if (sub === 'sub=old') {
-    $('#WarningAlert').show();
-    $('html, body').animate({
-      scrollTop: $('#WarningAlert').offset().top
-    }, 0);
-  } else {
-    $('#WarningAlert').hide();
-  }
-});
+// check if the URL ends with "/?sub=new"
+if (currentURL.endsWith("/?sub=old")) {
+  // show the div element
+  document.getElementById("WarningAlert").style.display = "block";
+
+  // update the URL without reloading the page
+  history.pushState({}, "", currentURL.replace("/?sub=old", ""));
+}
+
 
 /* Close */
 
