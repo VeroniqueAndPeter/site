@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   var url = window.location.href;
-  if (url.endsWith("?sub=new")) {
+  if (url.endsWith("?sub=old")) {
     $("#WarningAlert").show();
   } else {
     $("#WarningAlert").hide();
