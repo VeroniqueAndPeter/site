@@ -406,3 +406,10 @@ footer .call-to-action-footer h3 {
     cursor: pointer;
   }
   
+  #WarningAlert {
+    display: none;
+  }
+  
+  #SuccessAlert {
+    display: none;
+  }

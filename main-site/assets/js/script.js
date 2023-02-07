@@ -23,8 +23,19 @@ $(document).ready(function() {
   var url = window.location.href;
   if (url.endsWith("?sub=old")) {
     $("#WarningAlert").show();
+    document.getElementById("WarningAlert").style.display = "block";
   } else {
     $("#WarningAlert").hide();
+  }
+});
+
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("?sub=old")) {
+    $("#SuccessAlert").show();
+    document.getElementById("SuccessAlert").style.display = "block";
+  } else {
+    $("#SuccessAlert").hide();
   }
 });
   
