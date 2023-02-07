@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   var url = window.location.href;
-  if (url.endsWith("?sub=old")) {
+  if (url.endsWith("?sub=new")) {
     $("#SuccessAlert").show();
     document.getElementById("SuccessAlert").style.display = "block";
   } else {
