@@ -343,13 +343,6 @@ footer .call-to-action-footer h3 {
 
 /* Alert */
 
-@media screen and (max-width: 600px) {
-    .alert {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
 .alert {
     padding: 20px;
     background-color: #f44336;
@@ -360,9 +353,9 @@ footer .call-to-action-footer h3 {
     margin-left: 10%;margin-right: 10%;
   }
   
-  .alert.success {background-color: #04AA6D;margin-left: 100px;margin-right: 100px;}
-  .alert.info {background-color: #2196F3;margin-left: 100px;margin-right: 100px;}
-  .alert.warning {background-color: #ff9800;margin-left: 100px;margin-right: 100px;}
+  .alert.success {background-color: #04AA6D;margin-left: 10%;margin-right: 10%;}
+  .alert.info {background-color: #2196F3;margin-left: 10%;margin-right: 10%;}
+  .alert.warning {background-color: #ff9800;margin-left: 10%;margin-right: 10%;}
   
   .closebtn {
     margin-left: 15px;
