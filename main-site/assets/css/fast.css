@@ -12,9 +12,16 @@
 }
 
 .p-3 {
- padding: 3%;
+    padding: 3%;
 }
 
+.pl-30 {
+    padding-left: 3%;
+}
+
+.pr-3 {
+    padding-right: 3%;
+}
 .h-200 {
     height: 200px;
 }

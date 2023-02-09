@@ -132,14 +132,13 @@ nav {
 }
 
 #left-btn:hover, #right-btn:hover {
-    background-color: #fff;
+    background-color: #d1d1d1;
     color: #333;
 }
 
 #right-btn {
     position: absolute;
     right: 3rem;
-    transform: translateY(-50%);
 }
 
 .product-btns {
