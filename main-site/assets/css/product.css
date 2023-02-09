@@ -103,37 +103,21 @@ nav {
   }
 
 /* Products =================================================================================================================================================================== */
-
-.product-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
   .product-list {
-    width: 600px; /* Adjust to match the width of your products */
-    height: 200px; /* Adjust to match the height of your products */
-    overflow: hidden;
-    position: relative;
-}
-
-.product {
-    width: 200px; /* Adjust to match the width of a single product */
-    height: 200px; /* Adjust to match the height of a single product */
-    float: left; /* Allows products to be listed next to each other */
-}
-
-  
-  button {
-    width: 50px;
-    height: 50px;
-    border: none;
-    outline: none;
-    background-color: #ccc;
-    color: #fff;
-    cursor: pointer;
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
   }
-
+  
+  .product {
+    width: calc(100% / 6);
+    height: 200px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 200px;
+  }
+  
 /* Footer ===================================================================================================================================================================== */
 
 

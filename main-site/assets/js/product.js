@@ -4,16 +4,19 @@ document.addEventListener("DOMContentLoaded", function() {
     var rightBtn = document.querySelector("#right-btn");
   
     function scrollLeft() {
-      productList.style.left = "-100%";
+      productList.scrollLeft -= 100;
     }
   
     function scrollRight() {
-      productList.style.left = "0";
+      productList.scrollLeft += 100;
     }
   
     leftBtn.addEventListener("click", scrollLeft);
     rightBtn.addEventListener("click", scrollRight);
   });
+  
+  
+  
   
   
   
