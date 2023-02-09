@@ -1,4 +1,32 @@
+.br-1 {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.item-center {
+    text-align: -webkit-center;
+}
 
 .mt-1 {
     margin-top: 1rem;
+}
+
+.p-3 {
+ padding: 3%;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.qi-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  
 }

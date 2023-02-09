@@ -2,7 +2,7 @@
 /* Header ===================================================================================================================================================================== */
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #d1d1d1;
     padding: 20px 10px;
     z-index: 1;
 }
@@ -103,18 +103,21 @@ nav {
   }
 
 /* Products =================================================================================================================================================================== */
-  
-.product-list {
-    display: flex;
-    width: 300%;
+
+.product-slider {
+    overflow: hidden;
     position: relative;
-    left: 0;
-    transition: left 0.5s;
 }
 
-.product-list .product {
-    width: 33.33%;
-    text-align: center;
+.product-group {
+/*    float: left;
+    width: 100%; */
+    position: relative;
+}
+
+.product {
+    width: 25%;
+    float: left;
 }
 
 #left-btn, #right-btn {
@@ -125,14 +128,34 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     outline: none;
-    margin-top: 20px;
+    margin-bottom: 1rem;
 }
 
 #left-btn:hover, #right-btn:hover {
     background-color: #fff;
     color: #333;
 }
- 
+
+#right-btn {
+    position: absolute;
+    right: 3rem;
+    transform: translateY(-50%);
+}
+
+.product-btns {
+    display: inline-block;
+}
+.ff-1, .ff-2 {
+    float: left;
+    width: 50%;  
+}
+
+.ff-1 svg {
+    fill: #000;
+    height: 24px;
+    width: 24px;
+  }
+
 /* Footer ===================================================================================================================================================================== */
 
 
@@ -236,3 +259,4 @@ footer .call-to-action-footer h3 {
       margin: 0;
     }
   }
+
