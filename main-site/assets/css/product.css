@@ -111,20 +111,18 @@ nav {
   }
   
   .product-list {
-    display: flex;
-    overflow-x: scroll;
-    width: 70%;
-    white-space: nowrap;
-  }
-  
-  .product {
-    width: 20%;
-    height: 100px;
-    display: inline-block;
-    text-align: center;
-    margin: 0 10px;
-    border: 1px solid #ccc;
-  }
+    width: 600px; /* Adjust to match the width of your products */
+    height: 200px; /* Adjust to match the height of your products */
+    overflow: hidden;
+    position: relative;
+}
+
+.product {
+    width: 200px; /* Adjust to match the width of a single product */
+    height: 200px; /* Adjust to match the height of a single product */
+    float: left; /* Allows products to be listed next to each other */
+}
+
   
   button {
     width: 50px;
