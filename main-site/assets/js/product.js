@@ -1,15 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
     var productList = document.querySelector(".product-list");
-
+    var leftBtn = document.querySelector("#left-btn");
+    var rightBtn = document.querySelector("#right-btn");
+  
     function scrollLeft() {
-        productList.style.left = "-100%";
+      productList.style.left = "-100%";
     }
-
+  
     function scrollRight() {
-        productList.style.left = "0";
+      productList.style.left = "0";
     }
-
-    document.querySelector("#left-btn").addEventListener("click", scrollLeft);
-
-    document.querySelector("#right-btn").addEventListener("click", scrollRight);
-});
+  
+    leftBtn.addEventListener("click", scrollLeft);
+    rightBtn.addEventListener("click", scrollRight);
+  });
+  
+  
+  
