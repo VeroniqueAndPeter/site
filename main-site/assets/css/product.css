@@ -115,12 +115,12 @@ nav {
     position: relative;
 }
 
-.product {
+.product, .babychildren {
     width: 25%;
     float: left;
 }
 
-#left-btn, #right-btn {
+#left-btn, #left-btn-2, #right-btn, #right-btn-2 {
     background-color: #333;
     color: #fff;
     padding: 10px 15px;
@@ -131,12 +131,13 @@ nav {
     margin-bottom: 1rem;
 }
 
-#left-btn:hover, #right-btn:hover {
+
+#left-btn:hover, #left-btn-2:hover, #right-btn:hover, #right-btn-2:hover {
     background-color: #d1d1d1;
     color: #333;
 }
 
-#right-btn {
+#right-btn, #right-btn-2 {
     position: absolute;
     right: 3rem;
 }
