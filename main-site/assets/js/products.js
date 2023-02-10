@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
-    } else if (pid === "87654321") {
+    } else if (pid === "18567945") {
       setTimeout(function() {
-        window.location.href = "https://www.amazon.com/?example=2";
+        window.location.href = "https://www.amazon.com/Little-Trees-Freshener-Black-10-Pack/dp/B00F3H79LS?th=1&linkCode=li2&tag=veroniqueandp-20&linkId=eaf08bed97ec6b4bef5365cc0395c721&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
