@@ -115,12 +115,12 @@ nav {
     position: relative;
 }
 
-.product, .babychildren {
+.product, .product1, .product2, .product3, .product4, .product5 {
     width: 25%;
     float: left;
 }
 
-#left-btn, #left-btn-2, #right-btn, #right-btn-2 {
+#left-btn, #left-btn-2, #left-btn-3, #left-btn-4, #left-btn-5, #left-btn-6, #right-btn, #right-btn-2, #right-btn-3, #right-btn-4, #right-btn-5, #right-btn-6 {
     background-color: #333;
     color: #fff;
     padding: 10px 15px;
@@ -132,14 +132,18 @@ nav {
 }
 
 
-#left-btn:hover, #left-btn-2:hover, #right-btn:hover, #right-btn-2:hover {
+#left-btn:hover, #left-btn-2:hover, #left-btn-3:hover, #left-btn-4:hover, #left-btn-5:hover, #left-btn-6:hover, #right-btn:hover, #right-btn-2:hover, #right-btn-3:hover, #right-btn-4:hover, #right-btn-5:hover, #right-btn-6:hover {
     background-color: #d1d1d1;
     color: #333;
 }
+#left-btn, #left-btn-2, #left-btn-3, #left-btn-4, #left-btn-5, #left-btn-6 {
+    position: relative;
+    left: 190%;
+}
 
-#right-btn, #right-btn-2 {
+#right-btn, #right-btn-2, #right-btn-3, #right-btn-4, #right-btn-5, #right-btn-6 {
     position: absolute;
-    right: 3rem;
+    right: 7%;
 }
 
 .product-btns {
