@@ -204,11 +204,14 @@ footer {
 
 @media screen and (max-width: 750px){
     .AmznImg {
-        height: 75px;
-        width: auto;
+        height: 80px!important;
     }
-    
+    .product-name {
+        font-size: xx-small;
+        font-weight: 700;
+    }    
 }
+    
 
 footer h1,
 footer h2,
