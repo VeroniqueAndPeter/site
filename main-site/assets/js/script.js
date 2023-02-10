@@ -11,14 +11,13 @@ for (i = 0; i < close.length; i++) {
 }
 
 $(document).ready(function() {
-  var url = window.location.search;
-  if (url === "?sub=new") {
+  var url = window.location.href;
+  if (url.indexOf("?sub=new") !== -1) {
     $("#SuccessAlert").show();
   } else {
     $("#SuccessAlert").hide();
   }
 });
-  
   
   
 $(document).ready(function() {
