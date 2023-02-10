@@ -50,3 +50,13 @@
 .fs-25 {
     font-size: 250%;
 }
+
+@media screen and (max-width: 650px) {
+    .h-200 {
+        height: 80px;
+    }
+    
+    .w-200 {
+        width: 80px;
+    }
+}
