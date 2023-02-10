@@ -30,6 +30,20 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "15148821") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Mobil-120769-Mileage-5W-30-Motor/dp/B00JTUBTU2?th=1&linkCode=li2&tag=veroniqueandp-20&linkId=4bba8e5d0e8f3a55c706f8f9c4b60480&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
