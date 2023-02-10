@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var url = new URL(window.location.href);
     var pid = url.searchParams.get("pid");
   
-    if (pid === "12345678") {
+    if (pid === "16335148") {
       setTimeout(function() {
-        window.location.href = "https://www.amazon.com/?example=1";
+        window.location.href = "https://www.amazon.com/Motor-Trend-MT-923-BK-FlexTough-Contour/dp/B01A5TLGJ4?th=1&linkCode=li2&tag=veroniqueandp-20&linkId=346fc771d245fac6600e58733d3b6a80&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
