@@ -53,6 +53,25 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("?error=true")) {
+    $("#FailedAlert").show();
+    document.getElementById("FailedAlert").style.display = "block";
+  } else {
+    $("#FailedAlert").hide();
+  }
+});
+
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("?error=true")) {
+    $("#FailedAlert").show();
+  } else {
+    $("#FailedAlert").hide();
+  }
+});
+
 /* Close */
 
 var closebtns = document.getElementsByClassName("closebtn");
