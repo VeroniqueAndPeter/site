@@ -1,0 +1,8 @@
+@import url(./fast.css);
+@import url(./main.css);
+
+.footer {
+    bottom: 0%;
+    width: 100%;
+    position: absolute;
+}
