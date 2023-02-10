@@ -202,9 +202,12 @@ footer {
     }
 }
 
-.AmznImg {
-    height: 75px;
-    width: auto;
+@media screen and (max-width: 750px){
+    .AmznImg {
+        height: 75px;
+        width: auto;
+    }
+    
 }
 
 footer h1,
