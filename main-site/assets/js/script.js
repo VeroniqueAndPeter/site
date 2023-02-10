@@ -14,11 +14,42 @@ $(document).ready(function() {
   var url = window.location.href;
   if (url.endsWith("?sub=new")) {
     $("#SuccessAlert").show();
+    document.getElementById("SuccessAlert").style.display = "block";
   } else {
     $("#SuccessAlert").hide();
   }
 });
 
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("?sub=new")) {
+    $("#SuccessAlert").show();
+  } else {
+    $("#SuccessAlert").hide();
+  }
+});
+
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("?error=true")) {
+    $("#failedAlert").show();
+    document.getElementById("failedAlert").style.display = "block";
+  } else {
+    $("#failedAlert").hide();
+  }
+});
+
+$(document).ready(function() {
+  var url = window.location.href;
+  if (url.endsWith("?error=true")) {
+    $("#failedAlert").show();
+  } else {
+    $("#failedAlert").hide();
+  }
+});
+
+
+  
 $(document).ready(function() {
   var url = window.location.href;
   if (url.endsWith("?sub=old")) {
@@ -29,16 +60,6 @@ $(document).ready(function() {
   }
 });
 
-$(document).ready(function() {
-  var url = window.location.href;
-  if (url.endsWith("?sub=new")) {
-    $("#SuccessAlert").show();
-    document.getElementById("SuccessAlert").style.display = "block";
-  } else {
-    $("#SuccessAlert").hide();
-  }
-});
-  
 document.addEventListener("DOMContentLoaded", function() {
   let url = window.location.href;
   let subDiv = document.getElementById("WarningAlert");

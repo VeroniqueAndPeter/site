@@ -1,38 +1,63 @@
-
-let url = window.location.href;
-let timer = 3;
-let countdown = document.getElementById("countdown");
-
-if (url.endsWith("/?pid=12345678")) {
-  window.setInterval(function () {
-    timer--;
-    countdown.innerHTML = timer;
-    if (timer === 0) {
-      window.location.href = "https://www.example.com/product";
+document.addEventListener("DOMContentLoaded", function() {
+    var url = new URL(window.location.href);
+    var pid = url.searchParams.get("pid");
+  
+    if (pid === "12345678") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/?example=1";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "87654321") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/?example=2";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (!pid) {
+      setTimeout(function() {
+        window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else {
+      setTimeout(function() {
+        window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     }
-  }, 1000);
-} else if (url.endsWith("/?pid=87654321")) {
-  window.setInterval(function () {
-    timer--;
-    countdown.innerHTML = timer;
-    if (timer === 0) {
-      window.location.href = "https://www.example.com/example";
-    }
-  }, 1000);
-} else if (url === "https://www.example.com/") {
-  window.setInterval(function () {
-    timer--;
-    countdown.innerHTML = timer;
-    if (timer === 0) {
-      window.location.href = "https://www.example.com";
-    }
-  }, 1000);
-} else {
-  window.setInterval(function () {
-    timer--;
-    countdown.innerHTML = timer;
-    if (timer === 0) {
-      window.location.href = "https://www.example.com";
-    }
-  }, 1000);
-}
+  });
+  
