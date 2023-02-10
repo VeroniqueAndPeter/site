@@ -11,8 +11,8 @@ for (i = 0; i < close.length; i++) {
 }
 
 $(document).ready(function() {
-  var url = window.location.href;
-  if (url.indexOf("?sub=new") !== -1 && url.slice(-10) === "?sub=new") {
+  var url = window.location.search;
+  if (url === "?sub=new") {
     $("#SuccessAlert").show();
   } else {
     $("#SuccessAlert").hide();
