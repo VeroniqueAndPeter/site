@@ -9,33 +9,23 @@ for (i = 0; i < close.length; i++) {
     setTimeout(function(){ div.style.display = "none"; }, 600);
   }
 }
-
+  
 $(document).ready(function() {
   var url = window.location.href;
-  if (url.indexOf("?sub=new") !== -1) {
+  if (url.endsWith("?sub=new")) {
     $("#SuccessAlert").show();
+    document.getElementById("SuccessAlert").style.display = "block";
   } else {
     $("#SuccessAlert").hide();
   }
 });
-  
-  
-$(document).ready(function() {
-  var url = window.location.href;
-  if (url.endsWith("?error=true")) {
-    $("#failedAlert").show();
-    document.getElementById("failedAlert").style.display = "block";
-  } else {
-    $("#failedAlert").hide();
-  }
-});
 
 $(document).ready(function() {
   var url = window.location.href;
-  if (url.endsWith("?error=true")) {
-    $("#failedAlert").show();
+  if (url.endsWith("?sub=new")) {
+    $("#SuccessAlert").show();
   } else {
-    $("#failedAlert").hide();
+    $("#SuccessAlert").hide();
   }
 });
 
