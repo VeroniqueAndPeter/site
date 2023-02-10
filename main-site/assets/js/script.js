@@ -12,23 +12,16 @@ for (i = 0; i < close.length; i++) {
 
 $(document).ready(function() {
   var url = window.location.href;
-  if (url.endsWith("?sub=new")) {
-    $("#SuccessAlert").show();
-    document.getElementById("SuccessAlert").style.display = "block";
+  if (url === "https://veroniqueandpetervandamme.com/?sub=new") {
+  $("#SuccessAlert").show();
   } else {
-    $("#SuccessAlert").hide();
+  $("#SuccessAlert").hide();
   }
-});
-
-$(document).ready(function() {
-  var url = window.location.href;
-  if (url.endsWith("?sub=new")) {
-    $("#SuccessAlert").show();
-  } else {
-    $("#SuccessAlert").hide();
-  }
-});
-
+  });
+  
+  
+  
+  
 $(document).ready(function() {
   var url = window.location.href;
   if (url.endsWith("?error=true")) {
