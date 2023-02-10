@@ -44,6 +44,20 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "15418465") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/HOTOR-Leak-Proof-Organizer-Waterproof-Multipurpose/dp/B07VGRVKSN?th=1&linkCode=li2&tag=veroniqueandp-20&linkId=9f84463e5ed9de6b213ecb1cf01e0a73&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
