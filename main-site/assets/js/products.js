@@ -170,6 +170,76 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "12338953") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Pampers-Sensitive-Water-Based-Pop-Top-Refill/dp/B07JRBSPZ3?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=264cbb56d2c8c9cbe67a482814357607&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338954") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Diapers-Size-144-Count-Disposable/dp/B07H3QY56J?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=d308e080edaf0225bf3a911c39c65506&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338955") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Summer-Infant-012914326435-Convenience-Stroller/dp/B07GGHVL64?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=bbef0c4b9a5d242e5c7d4c7dcd9c7a09&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338956") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338957") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
