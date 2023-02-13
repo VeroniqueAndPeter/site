@@ -620,7 +620,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338985") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Fitbit-Smartwatch-Readiness-Exercise-Tracking/dp/B0B4MWCFV4?qid=1676282471&s=electronics&sr=1-11&linkCode=li2&tag=veroniqueandp-20&linkId=3909824cb9391231bb63484ae4599cbd&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -634,7 +634,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338986") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Kasa-Smart-Home-Security-Camera/dp/B08GHX9G5L?qid=1676282567&s=electronics&sr=1-6&linkCode=li2&tag=veroniqueandp-20&linkId=a48c7931810297095ac2c2ff205c366b&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -648,7 +648,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "123389887") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Flipper-FLP-Z-W-R04-Zero/dp/B0BBSRM37R?qid=1676282639&s=electronics&sr=1-8&linkCode=li2&tag=veroniqueandp-20&linkId=4c4d1105c561965fd9faf641b1a54007&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -662,7 +662,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338988") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Bose-Speaker-Soundbar-Bluetooth-connectivity/dp/B088KRPCQJ?qid=1676282719&s=electronics&sr=1-8&linkCode=li2&tag=veroniqueandp-20&linkId=a708cdc33c04913810d4f86516cf6a44&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
