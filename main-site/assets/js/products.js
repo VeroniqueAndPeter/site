@@ -956,7 +956,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12339009") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Cedar-EasyWring-Microfiber-Bucket-Cleaning/dp/B00WSWGVZQ?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=123f9bca627bc257434c7c4a861e84f0&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -970,7 +970,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12339010") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Bounty-Quick-Size-Paper-Towels-Family/dp/B079VP6DH5?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=fb8e02f1e248e6455b1ad027347ccd6d&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -984,7 +984,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12339011") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Microfiber-Cleaning-Towels-Assorted-Yellow/dp/B098D79MQB?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=7971a35a9701fb729a04c87c3f6d8014&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -998,7 +998,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12339012") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Elgood-Dishwashing-Cleaning-Gloves-Kitchen/dp/B077XCCJ2B?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=0a4709223d43ba156361606b42f85610&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
