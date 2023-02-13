@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338958") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/VTech-VM819-Monitor-Temperature-Lullabies/dp/B08V8RWP3W?qid=1676278080&s=baby-products-intl-ship&sr=1-19&linkCode=li2&tag=veroniqueandp-20&linkId=1d2d2e76b2ce0e3839afb2f52f4d0776&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
