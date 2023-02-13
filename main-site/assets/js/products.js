@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338959") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Peg-Perego-Viaggio-Shuttle-Crystal/dp/B01MURBO9V?content-id=amzn1.sym.3ec87ef1-49d9-46e9-b0e7-1205a77c6501%3Aamzn1.sym.3ec87ef1-49d9-46e9-b0e7-1205a77c6501&keywords=backless+booster+car+seat&pd_rd_r=833c2817-1531-4131-929a-935b93c9c9bb&pd_rd_w=3K7MS&pd_rd_wg=PqUIn&pf_rd_p=3ec87ef1-49d9-46e9-b0e7-1205a77c6501&pf_rd_r=1W2W5XSVZCYVXQECDKMJ&qid=1676278495&sr=8-58-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMVdHWU0xOURaQ1RUJmVuY3J5cHRlZElkPUEwNTAzNDk3STU3MVM3Qjc0OTJUJmVuY3J5cHRlZEFkSWQ9QTAwNjQxNTQzTjRRQzhVVVo5SDJCJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=li2&tag=veroniqueandp-20&linkId=d22059b7b7d4111bac1022d97ad6e684&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
