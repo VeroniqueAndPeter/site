@@ -282,7 +282,49 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
-    } else if (pid === "12338960") {
+    } else if (pid === "12338961") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338962") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338963") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338964") {
       setTimeout(function() {
         window.location.href = "";
       }, 3000);
