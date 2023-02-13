@@ -564,7 +564,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338981") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/dp/B07VWXCXM7?th=1&linkCode=li2&tag=veroniqueandp-20&linkId=4bddcc1274a589efd804a8472443dce5&language=en_US&ref_=as_li_ss_ilhttps://www.amazon.com/dp/B07VWXCXM7?th=1&linkCode=li2&tag=veroniqueandp-20&linkId=4bddcc1274a589efd804a8472443dce5&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -578,7 +578,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338982") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1?keywords=elgato+ring+light+tripod&qid=1676281981&s=pc&sprefix=elgato+ring%2Ccomputers%2C150&sr=1-10&linkCode=li2&tag=veroniqueandp-20&linkId=e5d78f4112f0dfb8c8027c48a4c766e9&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -592,7 +592,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338983") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/dp/B0BKR5ZT9J?_encoding=UTF8&psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=2cc7a17f68ccec493683657aa7714b13&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -606,7 +606,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338984") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Apple-iPhone-11-64GB-Red/dp/B07ZPKBL9V?crid=2LHP6C7XKX4OL&keywords=iphone+14&qid=1676282331&sprefix=iphone+14%2Caps%2C169&sr=8-6&linkCode=li2&tag=veroniqueandp-20&linkId=50e9f06984d1ba1966d712b048c9de00&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
