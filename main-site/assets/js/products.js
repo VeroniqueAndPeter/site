@@ -786,6 +786,230 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "12338997") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338998") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338999") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339000") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339001") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Amazon-Brand-Presto-308-Sheet-Ultra-Soft/dp/B074CRK54X?keywords=toilet+paper&qid=1676284695&sr=8-8&linkCode=li2&tag=veroniqueandp-20&linkId=dd2436da1731522302e3124a61b43d85&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339002") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/VacLife-25Kpa-Cordless-Vacuum-Cleaner/dp/B0BGXYDFR7?keywords=vacuum+cleaner&qid=1676285263&sprefix=va%2Caps%2C159&sr=8-20&linkCode=li2&tag=veroniqueandp-20&linkId=a5c0e4a41bcedca4d920784dbbe2f5b8&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339003") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Whirlwind-Bagless-Canister-Cleaner-Lightweight/dp/B09BF6YZR1?keywords=vacuum+cleaner&qid=1676285242&sprefix=va%2Caps%2C159&sr=8-20&linkCode=li2&tag=veroniqueandp-20&linkId=998c89fbcd2be22cf9180f2b35ae20d4&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339004") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Tide-Liquid-Laundry-Detergent-Touch/dp/B09TCRLHZV?crid=1PPN04RPXP73L&keywords=tide&qid=1676285824&sprefix=tid%2Caps%2C158&sr=8-6&linkCode=li2&tag=veroniqueandp-20&linkId=705c8f15788f9b02be8807014d7c1b1a&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339005") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/PGC-23124-84847665-Multipurpose-Cleaning/dp/B06XT161H7?crid=LGZIXWX99Y1I&keywords=mr.+clean&qid=1676285731&sprefix=mr.+clean%2Caps%2C185&sr=8-5&linkCode=li2&tag=veroniqueandp-20&linkId=ab4e11c7198d7fc9d8e18a7334394d1f&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339006") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Vanish-Pre-Treat-Stain-Remover-Power/dp/B07D91ZSQ4?crid=37LQIVC12NN35&keywords=venish&qid=1676285784&sprefix=venish%2Caps%2C154&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=cca46be222244a1942689617ec1e097e&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339007") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Tide-Laundry-Detergent-Designed-Spring/dp/B0854T5ZH5?crid=1PPN04RPXP73L&keywords=tide&qid=1676285824&sprefix=tid%2Caps%2C158&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExOFpFRjJCMDNWMEk3JmVuY3J5cHRlZElkPUEwOTM4ODU2MVpJMlZZWkJYUkNMQiZlbmNyeXB0ZWRBZElkPUEwNzkxOTg3M1NLMjZHUExITkdUVCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=li2&tag=veroniqueandp-20&linkId=0a070f9e76f1076fe460559803f5de07&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339008") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Clean-Variety-Kitchen-Durable-Cleaning/dp/B08QTZRFYC?crid=LGZIXWX99Y1I&keywords=mr.+clean&qid=1676285731&sprefix=mr.+clean%2Caps%2C185&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTU1VSjEzR1k5U0tEJmVuY3J5cHRlZElkPUEwMTQ5NjQ3MVdHUDZRWFVXVFAyTyZlbmNyeXB0ZWRBZElkPUEwNDM1MDk3M0ozRzM5UTkwSTVUJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=li2&tag=veroniqueandp-20&linkId=4d06b51c18bda786f625e17e7c796752&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339009") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339010") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339011") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339012") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
