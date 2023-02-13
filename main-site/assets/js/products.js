@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338956") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Regalo-39-Inch-6-Inch-Extension-Pressure/dp/B001OC5UMQ?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=496ad79068a7489e9b878902591a9b42&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
