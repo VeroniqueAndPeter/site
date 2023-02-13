@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338960") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Oball-81107-Kids-Shaker-Toy/dp/B008J1QP7Y?qid=1676278727&s=baby-products-intl-ship&sr=1-5&linkCode=li2&tag=veroniqueandp-20&linkId=5629ae7e28958b34b8d3456c28ebad1f&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
