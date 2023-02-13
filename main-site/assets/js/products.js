@@ -340,7 +340,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338965") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/essence-Princess-Effect-Mascara-Cruelty/dp/B00T0C9XRK?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=1d179c20bea58c406cb2c40ec5024b78&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -354,7 +354,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338966") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Neutrogena-Cleansing-Towelettes-Waterproof-Alcohol-Free/dp/B00U2VQZDS?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=41630d296daae5f787799927a1565730&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -368,7 +368,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338967") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/MSQ-Separator-Applicator-Designed-Cosmetic/dp/B07GGR2LY1?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=29e0357b7b620289537fe1a7d7595ce6&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -382,7 +382,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338968") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Pimoys-Triangle-Mineral-Cosmetic-Foundation/dp/B09K7N3V4R?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=76457f7b323f0b73ba74bcc5bfbc325a&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338969") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Julep-Eyeshadow-Hypoallergenic-Waterproof-Available/dp/B01LW1983J?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=65ada4d614bb7c83cc965a4f01609c33&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -410,7 +410,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338970") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/wet-wild-Finish-Stick-Garnet/dp/B00YFQ1JH8?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=f0abbeeb3fa3918841b28b4118d9e18c&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -424,7 +424,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338971") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=a18b749fdf9378151675f6449f98f92d&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -438,7 +438,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338972") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Amazon-Brand-MotionSphere-Lubrication-Cartridges/dp/B07CZCQ481?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=350c180b19e5849d3879c4cdf2b22012&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
