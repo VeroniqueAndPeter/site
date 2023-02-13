@@ -660,7 +660,7 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
-    } else if (pid === "12338988") {
+    } else if (pid === "123389558") {
       setTimeout(function() {
         window.location.href = "https://www.amazon.com/Bose-Speaker-Soundbar-Bluetooth-connectivity/dp/B088KRPCQJ?qid=1676282719&s=electronics&sr=1-8&linkCode=li2&tag=veroniqueandp-20&linkId=a708cdc33c04913810d4f86516cf6a44&language=en_US&ref_=as_li_ss_il";
       }, 3000);
