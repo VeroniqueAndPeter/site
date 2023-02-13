@@ -338,6 +338,174 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "12338965") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338966") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338967") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338968") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338969") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338970") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338971") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338972") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338973") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338974") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338975") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338976") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
