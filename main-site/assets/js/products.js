@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338952") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/CARTMAN-Warning-Triangle-Approved-Identical/dp/B00VA1F1TS?qid=1676274763&s=automotive-intl-ship&sr=1-149&linkCode=li2&tag=veroniqueandp-20&linkId=4d460461e1145efc4a434db42c26f644&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
