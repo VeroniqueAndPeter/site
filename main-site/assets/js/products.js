@@ -674,6 +674,118 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "12338989") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Trideer-Exercise-Anti-Burst-Stability-Supports/dp/B07DK9QZV9?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=6de63c0b703d8cac52abdd75a6d21483&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338990") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Bottles-Motivational-Leakproof-Drinking-Pink-Green/dp/B09QSC3ZDV?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=062670b68554f7cb449fd336b8dd0c6a&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338991") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Resistance-Different-Elastic-Exercise-Workout/dp/B088DZWSF6?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=5e9f6cce068ba7a201637049e2942054&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338992") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Yes4All-Vinyl-Coated-Kettlebell-Weights/dp/B0093CMYSM?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=be9db1d72e04123393cdff350027a0d8&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338993") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Band-Aid-Adhesive-Bandages-Nickelodeon-Patrol/dp/B016UZX1P4?qid=1676284452&s=sporting-goods&sr=1-88&linkCode=li2&tag=veroniqueandp-20&linkId=f9e0c322ea1c897949785092c251d76c&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338994") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338995") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338996") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
