@@ -29,27 +29,35 @@
     padding-right: 3%;
 }
 
-.h-50 {
+.h-50px {
     height: 50px;
 }
 
-.h-100 {
+.h-100px {
     height: 100px;
 }
 
-.h-200 {
+.w-120px {
+    width: 120px;
+}
+
+.h-200px {
     height: 200px;
 }
 
-.w-50 {
+.w-50px {
     width: 50px;
 }
 
-.w-100 {
+.w-100px {
     width: 100px;
 }
 
-.w-200 {
+.w-120px {
+    width: 100px;
+}
+
+.w-200px {
     width: 200px;
 }
 
