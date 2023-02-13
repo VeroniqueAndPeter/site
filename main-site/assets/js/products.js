@@ -746,7 +746,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338994") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Brooks-Ghost-Black-Blackened-Pearl/dp/B08QV87H61?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=c9e54fcbf679cf865576cc3ee44150e4&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -760,7 +760,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338995") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/CHRLEISURE-Lifting-Workout-Leggings-Seamless/dp/B093W8MZML?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=1583f15f7f85b1c05f87afd5efa3818d&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -774,7 +774,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338996") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Hanes-Pullover-EcoSmart-Fleece-Hoodie/dp/B00JUM2VAQ?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=9a51e3affe1fb336fb3efaafffe719a5&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
