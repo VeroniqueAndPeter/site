@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338951") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Built-Display-Dashboard-Recorder-Support/dp/B098WVKF19?keywords=dashcam&qid=1676274556&s=automotive&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMEQ4NkRSUFZEVUcwJmVuY3J5cHRlZElkPUEwODk0Nzg5MlBFNzNIRlAxRzhBRyZlbmNyeXB0ZWRBZElkPUEwMzQ1NjI5QVBJM0wzR1lTSUNLJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=li2&tag=veroniqueandp-20&linkId=7d1a15a372161142bdc7b6dfa664dc77&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
