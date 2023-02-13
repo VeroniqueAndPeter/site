@@ -72,9 +72,65 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "12338947") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Holder-Upgrade-Automobile-Android-Smartphone/dp/B09MVZFXCC?th=1&linkCode=li2&tag=veroniqueandp-20&linkId=c9ec3cd24e3701628f8b831b8896fa34&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338948") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/SEALIGHT-9005-HB3-H11-Chips-12000LM/dp/B07JNY3ZVZ?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=567eecb08feb0d17e9917b2f117954ab&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (pid === "13654981") {
       setTimeout(function() {
         window.location.href = "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=cde629ecfdf44504eb63fe5cc5bfcf11&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338949") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Chemical-Guys-CWS_402_64-Car-Wash-Soap/dp/B071RKWXKV?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=968599383ec49680ed2ba7e3c743bffb&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338950") {
+      setTimeout(function() {
+        window.location.href = "";
       }, 3000);
   
       var count = document.querySelector("#countdown");
