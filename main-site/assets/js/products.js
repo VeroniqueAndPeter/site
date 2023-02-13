@@ -130,6 +130,34 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338950") {
       setTimeout(function() {
+        window.location.href = "https://www.amazon.com/VacLife-Air-Compressor-Tire-Inflator/dp/B07MKSP49L?psc=1&linkCode=li2&tag=veroniqueandp-20&linkId=2db176d1b8d776ec2ce07b0de825edef&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338951") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12338952") {
+      setTimeout(function() {
         window.location.href = "";
       }, 3000);
   
