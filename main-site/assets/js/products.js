@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338961") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Evenflo-38412462-Revolve360-Extend-Rowe/dp/B0BH9B4JT2?content-id=amzn1.sym.3ec87ef1-49d9-46e9-b0e7-1205a77c6501%3Aamzn1.sym.3ec87ef1-49d9-46e9-b0e7-1205a77c6501&keywords=car+seat&pd_rd_r=783182d7-8a29-458c-ac1f-1417950aaab3&pd_rd_w=t9CRo&pd_rd_wg=1A5Uz&pf_rd_p=3ec87ef1-49d9-46e9-b0e7-1205a77c6501&pf_rd_r=8T1ECZNPB39KRKBT4BN2&qid=1676279008&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVTdKMkM2TFpKS0RRJmVuY3J5cHRlZElkPUEwMTc0ODA0MkZaTVlENE9SMFMxJmVuY3J5cHRlZEFkSWQ9QTA3ODc3NjYzNjJPMUdYSlhWQUdBJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=li2&tag=veroniqueandp-20&linkId=84f83d426300d7df85e593acdd3b93aa&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -298,7 +298,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338962") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Schwinn-Toddler-16-Inch-Training-Included/dp/B07K3GB4XF?crid=2XFD4U5LH02EV&keywords=kids%2Bbike&qid=1676279171&sprefix=kids%2Bbike%2Caps%2C163&sr=8-5&th=1&linkCode=li2&tag=veroniqueandp-20&linkId=4cc66dfbe6037f28d343f63beb414ebb&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338963") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Shoulder-Crossbody-Bracelet-Keychain-Birthday/dp/B09L6BP1N5?keywords=kids+toys&qid=1676279304&sprefix=kids%2Caps%2C164&sr=8-15-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFSUkdFT0o5VlNLMk8mZW5jcnlwdGVkSWQ9QTA3OTYxMDBNVDVWNEc4UTZYRU8mZW5jcnlwdGVkQWRJZD1BMDIyODM4MDE0NlpCTjMwR1hFUk0md2lkZ2V0TmFtZT1zcF9tdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=li2&tag=veroniqueandp-20&linkId=c5ef7bc247f867dafd1613feab128f14&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -326,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338964") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Hamourd-Robot-Toys-Rechargeable-Auto-Demonstration/dp/B0B9RK7J6Y?keywords=kids%2Btoys&qid=1676279387&sprefix=kids%2Caps%2C164&sr=8-4&th=1&linkCode=li2&tag=veroniqueandp-20&linkId=bf263b6c632d692e353c5ce0e35b041e&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
