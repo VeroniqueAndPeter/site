@@ -249,3 +249,42 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+document.addEventListener("DOMContentLoaded", function() {
+    var products6 = document.querySelectorAll(".product6");
+    var leftBtn6 = document.querySelector("#left-btn-7");
+    var rightBtn6 = document.querySelector("#right-btn-7");
+    
+    var currentIndex6 = 0;
+    
+    products6.forEach(function(product6, index) {
+        if (index < 4) {
+            product6.style.display = "inline-block";
+        } else {
+            product6.style.display = "none";
+        }
+    });
+    
+    leftBtn6.addEventListener("click", function() {
+        if (currentIndex6 == 0) return;
+        
+        currentIndex6--;
+        updateProducts();
+    });
+    
+    rightBtn6.addEventListener("click", function() {
+        if (currentIndex6 == Math.floor(products6.length / 4) - 1) return;
+        
+        currentIndex6++;
+        updateProducts();
+    });
+    
+    function updateProducts() {
+        products6.forEach(function(product6, index) {
+            if (index >= currentIndex6 * 4 && index < currentIndex5 * 4 + 4) {
+                product6.style.display = "inline-block";
+            } else {
+                product6.style.display = "none";
+            }
+        });
+    }
+});
