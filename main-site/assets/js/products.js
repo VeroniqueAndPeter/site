@@ -1010,6 +1010,174 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "12339013") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612681131?crid=HKNR8KSNJUXQ&keywords=rich+dad+poor+dad+book&qid=1676619994&sprefix=rich+dad+%2Caps%2C194&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=ef5b2aa3a7edea7ee599246160c97707&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339014") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331?keywords=think+and+grow+rich+napolion+hill&qid=1676620475&sprefix=think+anf+grow+rich+na%2Caps%2C181&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=95cd2df97008ee65eff922bc2dd226a5&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339015") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Law-Success-Wealth-Builders-Complete-Achieving/dp/158542689X?keywords=the+laws+of+success+napoleon+hill&qid=1676620563&sprefix=the+lows+of+success%2Caps%2C143&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=83d82167ce77687277d5c7822d63e96b&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339016") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/How-Your-Mind-Mental-Dynamite/dp/0143111523?keywords=how+to+own+your+own+mind+by+napoleon+hill&qid=1676620692&sprefix=how+to+own+your+ow%2Caps%2C178&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=5123d3089a5f14cd6d63f1fd65ad1924&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339017") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1982137134?keywords=the+7+habits+of+highly+effective+people+paperback&qid=1676620789&sprefix=the+7+habbits+of+highly+%2Caps%2C153&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=b34a9763fff9b97cfbf0a75e9383e5d3&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339018") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Magic-Thinking-Big-David-Schwartz/dp/0671646788?crid=285ZHS8G3C7IN&keywords=the+magic+of+thinking+big&qid=1676620939&sprefix=the+magic+of+thinking+big%2Caps%2C187&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=16b096d2f34e3c3b03ab69a266104fff&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339019") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Magic-Secret-Rhonda-Byrne/dp/1451673442?keywords=the+magic+rhonda+byrne+book&qid=1676621084&sprefix=the+magic+rhinda%2Caps%2C158&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=c8d2e96fe4c08eac03ad230e3351d69f&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339020") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Secrets-Millionaire-Mind-Mastering-Wealth/dp/0060763280?_encoding=UTF8&qid=1676621200&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=d51d0d3f88eeee54c37ad37816a82c01&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339021") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Magnetic-Sponsoring-Attract-Distributors-Automatically/dp/1619612933?crid=38VTS6EHSDYV7&keywords=magnetic+sponsoring&qid=1676621386&sprefix=magnetic+sponsoring%2Caps%2C156&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=04c274ef49ae9cead69292548e3ade45&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339022") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Open-Click-Buy-Information-Apocalypse/dp/1087267471?_encoding=UTF8&qid=1676621467&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=da9670c605167549bdadd990ce2664ce&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339023") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    } else if (pid === "12339024") {
+      setTimeout(function() {
+        window.location.href = "";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
