@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function updateProducts() {
         products6.forEach(function(product6, index) {
-            if (index >= currentIndex6 * 4 && index < currentIndex5 * 4 + 4) {
+            if (index >= currentIndex6 * 4 && index < currentIndex6 * 4 + 4) {
                 product6.style.display = "inline-block";
             } else {
                 product6.style.display = "none";
