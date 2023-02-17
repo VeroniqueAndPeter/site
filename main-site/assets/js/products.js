@@ -1152,7 +1152,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12339023") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Copywriting-Secrets-Everyone-Clicks-Profits/dp/1640854622?keywords=copywriting+secrets+by+jim+edwards&qid=1676621604&sprefix=copywriting+secre%2Caps%2C153&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=d9c8f0e6c22962f22fb2470188d32966&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -1166,7 +1166,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12339024") {
       setTimeout(function() {
-        window.location.href = "";
+        window.location.href = "https://www.amazon.com/Traffic-Secrets-Underground-Playbook-Customers/dp/1401973736?_encoding=UTF8&qid=1676621678&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=53a9af5ea3d71df379fc778e7998829a&language=en_US&ref_=as_li_ss_il";
       }, 3000);
   
       var count = document.querySelector("#countdown");
