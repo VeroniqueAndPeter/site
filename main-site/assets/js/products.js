@@ -1178,6 +1178,20 @@ document.addEventListener("DOMContentLoaded", function() {
           clearInterval(interval);
         }
       }, 1000);
+    } else if (pid === "13333333") {
+      setTimeout(function() {
+        window.location.href = "https://www.amazon.com/Little-Money-Bible-Laws-Abundance/dp/1561703931?_encoding=UTF8&qid=1681724690&sr=8-1&linkCode=li2&tag=veroniqueandp-20&linkId=3ad409b44324a8c51c0bd2eb97e16a31&language=en_US&ref_=as_li_ss_il";
+      }, 3000);
+  
+      var count = document.querySelector("#countdown");
+      var countDown = 3;
+      var interval = setInterval(function() {
+        countDown--;
+        count.innerHTML = countDown;
+        if (countDown <= 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
     } else if (!pid) {
       setTimeout(function() {
         window.location.href = "https://veroniqueandpetervandamme.com/?error=true";
