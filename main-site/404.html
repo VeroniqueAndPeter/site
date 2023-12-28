@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+    <title>Home - twtafl</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/Untitled.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#default" class="logo">VeroniqueAndPeterVanDamme</a>
+        <div class="header-right">
+            <a class="active" href="#">Home</a>
+            <a href="mailto:veroniquepeter@thewaytoafreedomlifestyle.com">Contact</a>
+            <a href="./about">About</a>
+        </div>
+    </div>
+    <!-- Notifications -->
+    <div class="list-alerts" id="sticky-header" style="display: block;">
+        <ul>
+            <li>
+                <div class="alert success" id="SuccessAlert">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+                    <strong>Thanks!</strong> You are now subscibed to our news letter
+                </div>
+            </li>
+            <li>
+                <div class="alert warning" id="WarningAlert">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+                    <strong>Thanks!</strong> It seems like you are already subscribed to our Newsletter.
+                </div>
+            </li>
+            <li>
+                <div class="alert" style="display:none">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+                    <strong>Failed!</strong> Something whent wrong while redirectinh you, try again later.
+                </div>
+            </li>
+            <li>
+                <div class="alert warning" id="FailedAlert">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+                    <strong>Failed!</strong> Something whent wrong while redirecting you, try again later.
+                </div>
+            </li>
+        </ul>      
+    </div>
+    <!-- bg image -->
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">VeroniqueAndPeterVanDamme</span>
+            <br>
+            <span class="border sm-ow-04">One site for everything you need</span>
+        </div>
+    </div>
+    <div class="product-card" style="display: block; padding-top: 4%;">
+        <div id="snippetContent">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"> 
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script> 
+            <div class="container pb-5 mb-sm-1">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card border-0 mb-grid-gutter"> 
+                            <a class="card-img-tiles" href="./products">
+                                <div class="main-img"> 
+                                    <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B098WVKF19&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Automotive">
+                                </div>
+                                <div class="thumblist"> 
+                                    <img style="border: 2px solid black;height: 115px;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00F3H79LS&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Automotive">
+                                    <img class="w-100px h-120px" style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00VA1F1TS&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Automotive">
+                                </div> 
+                                </a>
+                                <div class="card-body border mt-n1 py-4 text-center">
+                                    <h2 class="h5 mb-1">Automotive</h2>
+                                    <span class="d-block mb-3 font-size-xs text-muted">Car Care, Car Accessories, Interior Accessories, Lights & Lighting Accessories</span>
+                                    <a class="btn btn-pill btn-outline-primary btn-sm" href="./products/?automotive">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card border-0 mb-grid-gutter"> 
+                                <a class="card-img-tiles" href="./products">
+                                    <div class="main-img">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BH9B4JT2&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Baby Children">
+                                    </div>
+                                    <div class="thumblist">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08V8RWP3W&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Baby Children">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07H3QY56J&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Baby Children">
+                                    </div> 
+                                </a>
+                                <div class="card-body border mt-n1 py-4 text-center">
+                                    <h2 class="h5 mb-1">Baby/Children</h2>
+                                    <span class="d-block mb-3 font-size-xs text-muted">Toys, Clothing, Baby Food, Diapers, Baby Care, Strollers & Accessories</span>
+                                    <a class="btn btn-pill btn-outline-primary btn-sm" href="./products/?baby-children">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card border-0 mb-grid-gutter"> 
+                                <a class="card-img-tiles" href="./products">
+                                    <div class="main-img">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07PBXXNCY&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Beauty and personal care">
+                                    </div>
+                                    <div class="thumblist">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00U2VQZDS&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Beauty and personal care">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07CZCQ481&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Beauty and personal care">
+                                    </div> 
+                                </a>
+                                <div class="card-body border mt-n1 py-4 text-center">
+                                    <h2 class="h5 mb-1">Beauty and personal care</h2>
+                                    <span class="d-block mb-3 font-size-xs text-muted">Makeup, Skin Care, Hair Care, Personal Care, Oral Care</span>
+                                    <a class="btn btn-pill btn-outline-primary btn-sm" href="./products/?beauty">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card border-0 mb-grid-gutter"> 
+                                <a class="card-img-tiles" href="./products">
+                                    <div class="main-img">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BKR5ZT9J&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Sunglasses">
+                                    </div>
+                                    <div class="thumblist">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B085TFF7M1&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Sunglasses">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BDHWDR12&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Sunglasses">
+                                    </div>
+                                </a>
+                                <div class="card-body border mt-n1 py-4 text-center">
+                                    <h2 class="h5 mb-1">Electronics</h2>
+                                    <span class="d-block mb-3 font-size-xs text-muted">Cell Phones & Accessories, Computers & Accessories, Headphones, Home Audio</span>
+                                    <a class="btn btn-pill btn-outline-primary btn-sm" href="./products/?electronics">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card border-0 mb-grid-gutter"> 
+                                <a class="card-img-tiles" href="./products">
+                                    <div class="main-img">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08QV87H61&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Hats">
+                                    </div>
+                                    <div class="thumblist">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07DK9QZV9&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Hats">
+                                        <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0093CMYSM&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Hats">
+                                    </div> 
+                                </a>
+                                <div class="card-body border mt-n1 py-4 text-center">
+                                    <h2 class="h5 mb-1">Sports and Outdoors</h2>
+                                    <span class="d-block mb-3 font-size-xs text-muted">Sports and Outdoors, Outdoor Recreation, Sports & Fitness, Fan Shop</span>
+                                    <a class="btn btn-pill btn-outline-primary btn-sm" href="./products/?sports">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6"><div class="card border-0 mb-grid-gutter"> 
+                            <a class="card-img-tiles" href="./products">
+                                <div class="main-img">
+                                    <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B074CRK54X&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Gloves">
+                                </div>
+                                <div class="thumblist">
+                                    <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0854T5ZH5&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Gloves">
+                                    <img style="border: 2px solid black;" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00WSWGVZQ&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=veroniqueandp-20&language=en_US" alt="Gloves">
+                                </div> 
+                            </a>
+                            <div class="card-body border mt-n1 py-4 text-center">
+                                <h2 class="h5 mb-1">Household</h2>
+                                <span class="d-block mb-3 font-size-xs text-muted">Household Supplies<br>Kitchen & Bath Fixtures</span>
+                                <a class="btn btn-pill btn-outline-primary btn-sm" href="./products/?household">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style type="text/css">
+            body{
+                background:#f5f5f5;
+                margin-top:20px;}
+
+            .card-img-tiles {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                position: relative;
+                background-color: #fff;
+                z-index: 5
+            }
+
+            .card-img-tiles .main-img>img,
+            .card-img-tiles .thumblist>img {
+                display: block;
+                width: 100%
+            }
+
+            .card-img-tiles .main-img {
+                width: 67%;
+                padding-right: .375rem
+            }
+
+            .card-img-tiles .thumblist {
+                width: 33%;
+                padding-left: .375rem
+            }
+
+            .card-img-tiles .thumblist>img {
+                margin-bottom: .75rem
+            }
+
+            .card-img-tiles .thumblist>img:last-child {
+                margin-bottom: 0
+            }
+
+            .mb-grid-gutter {
+                margin-bottom: 30px !important;
+            }
+            </style> 
+            <script type="text/javascript"></script> 
+        </div> 
+    </div>
+
+
+    <div class="newsletter-container" style="max-width: fit-content;">
+        <h1>Subscribe to Our Newsletter</h1>
+        <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl">
+            <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl"  >
+                <div style="display: none;">
+                    <input type="hidden" name="meta_web_form_id" value="218847364" />
+                    <input type="hidden" name="meta_split_id" value="" />
+                    <input type="hidden" name="listname" value="awlist6452840" />
+                    <input type="hidden" name="redirect" value="https://veroniqueandpetervandamme.com/?sub=new" id="redirect_02d4c7144c36b49713d2ebf92a43c891" />
+                    <input type="hidden" name="meta_redirect_onlist" value="https://veroniqueandpetervandamme.com/?sub=old" />
+                    <input type="hidden" name="meta_adtracking" value="veroniqueandpetervandamme" />
+                    <input type="hidden" name="meta_message" value="1" />
+                    <input type="hidden" name="meta_required" value="name,email" />
+                    
+                    <input type="hidden" name="meta_tooltip" value="" />
+                </div>
+                <div id="af-body-218847364" class="af-body af-standards">
+                    <div class="af-element">
+                        <label class="previewLabel" for="awf_field-115331925">Name: </label>
+                        <div class="af-textWrap">
+                            <input style="outline: 4px solid black;" id="awf_field-115331925" type="text" name="name" class="text" value="" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " tabindex="500" />
+                        </div>
+                        <div class="af-clear"></div>
+                    </div>
+                    <div class="af-element">
+                        <label class="previewLabel" for="awf_field-115331926">Email: </label>
+                        <div class="af-textWrap"><input class="text" style="outline: 4px solid black;" id="awf_field-115331926" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " />
+                        </div>
+                        <div class="af-clear"></div>
+                    </div>
+                    <div class="af-element buttonContainer">
+                        <input id="submit" name="submit" class="submit" type="submit" value="Submit" tabindex="502"/>
+                        <div class="af-clear"></div>
+                    </div>
+                    <div class="af-element privacyPolicy" style="text-align: center">
+                        <p>We respect your <a title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank" rel="nofollow">email privacy</a></p>
+                        <div class="af-clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: none;"><img src="https://forms.aweber.com/form/displays.htm?id=TIwcHCzszGws" alt="" /></div>
+        </form>
+    </div>
+    <footer class="footer">
+        <nav class="navigation-footer">
+            <div class="section-entry">
+                <h3>More from us</h3>
+                <a href="./products" data-preload-link="true" data-preload-link-activated="true">products</a>
+            </div>
+            <div class="section-entry">
+                <h3>About us</h3>
+                <a href="./about" data-preload-link="true" data-preload-link-activated="true">About us</a>
+            </div>
+            <div class="section-entry">
+                <h3>Contact</h3>
+                <a href="mailto:veroniquepeter@thewaytoafreedomlifestyle.com">Email us</a>
+                <a href="tel:+32480601112">Call us</a>
+            </div>
+        </nav>
+        <p style="text-align: center;"> VeroniqueAndPeterVanDamme 2023 — All rights reserved</p>
+    </footer>
+</body>
+<script type="text/javascript">
+    // Special handling for in-app browsers that don't always support new windows
+    (function() {
+        function browserSupportsNewWindows(userAgent) {
+            var rules = [
+                'FBIOS',
+                'Twitter for iPhone',
+                'WebView',
+                '(iPhone|iPod|iPad)(?!.*Safari\/)',
+                'Android.*(wv|\.0\.0\.0)'
+            ];
+            var pattern = new RegExp('(' + rules.join('|') + ')', 'ig');
+            return !pattern.test(userAgent);
+        }
+    
+        if (!browserSupportsNewWindows(navigator.userAgent || navigator.vendor || window.opera)) {
+            document.getElementById('af-form-218847364').parentElement.removeAttribute('target');
+        }
+    })();
+    </script>
+
+</html>
