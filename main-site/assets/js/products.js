@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338947") {
       setTimeout(function() {
-        window.location.href = "https://www.amazon.com/Holder-Upgrade-Automobile-Android-Smartphone/dp/B09MVZFXCC?th=1&linkCode=li2&tag=thewaytoafree-20&linkId=c9ec3cd24e3701628f8b831b8896fa34&language=en_US&ref_=as_li_ss_il";
+        window.location.href = "https://amzn.to/3U8YsGw";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338948") {
       setTimeout(function() {
-        window.location.href = "https://www.amazon.com/SEALIGHT-9005-HB3-H11-Chips-12000LM/dp/B07JNY3ZVZ?psc=1&linkCode=li2&tag=thewaytoafree-20&linkId=567eecb08feb0d17e9917b2f117954ab&language=en_US&ref_=as_li_ss_il";
+        window.location.href = "https://amzn.to/3vKuUVG";
       }, 3000);
   
       var count = document.querySelector("#countdown");
@@ -648,7 +648,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     } else if (pid === "12338987") {
       setTimeout(function() {
-        window.location.href = "https://www.amazon.com/Flipper-FLP-Z-W-R04-Zero/dp/B0BBSRM37R?qid=1676282639&s=electronics&sr=1-8&linkCode=li2&tag=thewaytoafree-20&linkId=4c4d1105c561965fd9faf641b1a54007&language=en_US&ref_=as_li_ss_il";
+        window.location.href = "https://amzn.to/3Stcp0I";
       }, 3000);
   
       var count = document.querySelector("#countdown");
